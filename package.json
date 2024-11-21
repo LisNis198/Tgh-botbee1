@@ -1,5 +1,5 @@
 {
-  "name": "nexalo",
+  "name": "N1SA9",
   "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
@@ -26,7 +26,7 @@
   ],
   "author": "HridoyCode",
   "license": "MIT",
-  "description": "Nexalo - A feature-rich Telegram bot built with Node.js offering advanced group moderation, music downloads, utility functions, and MongoDB integration for data persistence.",
+  "description": "N1SA9 - A feature-rich Telegram bot built with Node.js offering advanced group moderation, music downloads, utility functions, and MongoDB integration for data persistence.",
   "dependencies": {
     "@google-cloud/translate": "^8.5.0",
     "axios": "^1.7.7",
