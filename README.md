@@ -1,6 +1,6 @@
-﻿<img src="https://i.ibb.co.com/gDF63b8/nexalo.jpg" alt="Nexalo Bot Banner">
+# <p align="left"><a href="https://github.com/LisNis198/Tgh-botbee1"><img src="https://github-readme-stats.vercel.app/api/pin?username=xditya&show_icons=true&theme=dark&hide_border=true&repo=Tgh-botbee1"></a></p><p align="centre"><a href="https://t.me/CyberLisa_Bot"> <img src="https://img.shields.io/badge/telegram-Support_Group-blue?style=social&logo=telegram" alt="Support" /></a><a href="https://github.com/xditya/TeleBot/stargazers"><img src="https://img.shields.io/github/stars/LisNis198/TeleBot?style=social"></a><a href="https://github.com/LisNis198/Tgh-botbee1/fork"><img src="https://img.shields.io/github/forks/LisNis198/Tgh-botbee1?label=Fork&logoColor=blue&style=social"></a>	<a href="https://github.com/LisNis198/Tgh-botbee1"><img src="https://img.shields.io/github/last-commit/LisNis198/Tgh-botbee1?style=flat-square"></a></p>
 
-<center><h1>Nexalo - Advanced Telegram Bot</h1></center>
+<center><h1>N1SA9 - Advanced Telegram Bot</h1></center>
 <p align="center">
 <img src="https://img.shields.io/badge/Node.js%20Support-20.x-blue" alt="Node.js Support">
 <img src="https://img.shields.io/badge/project_version-7ZHV92MN4L-red" alt="Project Version">
@@ -11,7 +11,7 @@
 A feature-rich Telegram bot built with Node.js that provides various utility, moderation, and entertainment commands.
 
 <p align="center">
-  <a href="https://www.youtube.com/@bdnoobra" target="_blank">
+  <a href="https://www.youtube.com/@NisaN_EditZ108" target="_blank">
     <img src="https://i.ibb.co.com/LntSL4y/20241109-124517.png" alt="Nexalo Setup Tutorial" style="width:300px; height:80px; border-radius:10px;">
   </a>
     <a href="https://cmd.nexalo.xyz/" target="_blank">
