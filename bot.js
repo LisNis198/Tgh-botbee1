@@ -92,7 +92,7 @@ async function checkVersion() {
     const localVersion = fs.readFileSync(path.join(__dirname, 'version.txt'), 'utf8').trim();
 
     if (jsonData.version !== localVersion) {
-      console.log('\n' + fancyBox('🚨 OMG NEW UPDATE DETECTED! 🚨'));
+      console.log('\n' + fancyBox('🚨 HEY NEW UPDATE DETECTED! 🚨'));
       console.log(chalk.red.bold(`
       ⚡️ Current version: ${localVersion}
       🌟 New version: ${jsonData.version}
@@ -135,7 +135,7 @@ async function startBot() {
 
     if (leveledUp) {
       bot.sendMessage(msg.chat.id, `
-🎊 OMG! OMG! OMG! 🎊
+🎊 Hey! 🎊
 ✨ ${username} just reached Level ${newLevel}! ✨
 🌟 You're absolutely SLAYING IT! 🌟
       `).catch(error => console.error('Error sending level up message:', error));
@@ -248,7 +248,7 @@ async function startBot() {
   });
 
   console.log(fancyBox('✨ Bot is slaying and ready to serve! ✨'));
-  console.log(rainbowText('\n=== Made with 💖 by Hridoy! ===\n'));
+  console.log(rainbowText('\n=== Made with 💖 by N1SA9! ===\n'));
 }
 
 // Start the bot and handle any errors
