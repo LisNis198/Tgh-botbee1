@@ -1,0 +1,28 @@
+// File: commands/unsend.js
+module.exports = {
+    name: 'unsend',
+    adminOnly: false,
+    ownerOnly: false,
+    category: 'Utility',
+    description: 'Unsend a message sent by the bot',
+    guide: 'Reply to a bot message with /unsend to delete it',
+    execute: async (bot, msg, args) => {
+      if (!msg.reply_to_message) {
+        return bot.sendMessage(msg.chat.id, '🚫 Please reply to a message you want to unsend.');
+      }
+  
+      const repliedMsg = msg.reply_to_message;
+  
+      if (repliedMsg.from.id !== bot.me.id) {
+        return bot.sendMessage(msg.chat.id, '🚫 I can only unsend my own messages.');
+      }
+  
+      try {
+        await bot.deleteMessage(msg.chat.id, repliedMsg.message_id);
+        await bot.deleteMessage(msg.chat.id, msg.message_id); // Delete the command message as well
+      } catch (error) {
+        console.error('Error unsending message:', error);
+        await bot.sendMessage(msg.chat.id, '💔 Oops! I couldn\'t unsend that message. It might be too old or I might not have the necessary permissions.');
+      }
+    }
+  };
