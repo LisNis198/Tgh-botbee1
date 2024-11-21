@@ -8,8 +8,8 @@ module.exports = {
     const chatId = msg.chat.id;
 
     // Developer and bot information
-    const developerName = '1dev-hridoy';
-    const botName = 'Nexalo';
+    const developerName = 'N1SA9';
+    const botName = 'Cyber Lisa';
     const description = `*🤖 Bot Information:*\n` +
       `━━━━━━━━━━━━━━━━━━━━━\n` +
       `*Bot Name:* ${botName}\n` +
@@ -17,7 +17,7 @@ module.exports = {
       `*Description:* A multifunctional bot with a range of utilities and features.\n\n` +
       '*🌐 Developer Links:*\n' +
       '━━━━━━━━━━━━━━━━━━━━━\n' +
-      `[GitHub](https://github.com/1dev-hridoy) | [YouTube](https://youtube.com/hridoycode) | [Instagram](https://instagram.com/hridoy.py) | [Facebook](https://facebook.com/hridoy.py)\n\n`;
+      `[GitHub](https://github.com/LisaxNisan) | [YouTube](https://youtube.com/NisaN198-php) | [Instagram](https://instagram.com/nisaofficial) | [Facebook](https://facebook.com/shamsuddin.munna.2024)\n\n`;
 
     // Bot status details
     const ramUsage = (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2);
@@ -44,12 +44,12 @@ module.exports = {
       const buttons = {
         inline_keyboard: [
           [
-            { text: 'GitHub', url: 'https://github.com/1dev-hridoy' },
-            { text: 'YouTube', url: 'https://youtube.com/hridoycode' },
+            { text: 'GitHub', url: 'https://github.com/LisaxNisan' },
+            { text: 'YouTube', url: 'https://youtube.com/NisaN198-php' },
           ],
           [
-            { text: 'Instagram', url: 'https://instagram.com/hridoy.py' },
-            { text: 'Facebook', url: 'https://facebook.com/hridoy.py' },
+            { text: 'Instagram', url: 'https://instagram.com/nisanofficial' },
+            { text: 'Facebook', url: 'https://facebook.com/shamsuddin.munna.2024' },
           ],
         ],
       };
